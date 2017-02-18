@@ -1,0 +1,166 @@
+
+#unmixd_audio_player{
+	max-width: 1600px;
+	min-height: 300px;
+	background-color: #f3f3f3;
+	border: solid 2px #000;
+	margin: auto;
+	
+}
+
+#player_header{
+	width: 100%;
+	height: 100px;
+	background-color: #3f3f3f;
+	
+}
+
+#player_controls{
+	float: left;
+	/*border: solid 1px #fff;*/
+	width: 30%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+#track_infos{
+	float: left;
+	/*border: solid 1px #fff; */
+	width: 60%;
+	height: 100%;
+	box-sizing: border-box;
+	padding-left:2%;
+}
+
+.track_info{
+	height: 33%;
+	width: 100%;
+	box-sizing: border-box;
+	/*border: solid 1px #fff;*/
+	line-height: 33px;
+	font-weight: bold;
+	font-size: 111%;
+}
+
+.primary_controls{
+	float: left;
+	min-width: 24px;
+	margin: auto;
+	cursor: pointer;
+	
+}
+
+#play_button, #pause_button, #artist_pic{
+	width: 70px;
+	height: 70px;
+	margin: 0px 5px 0px 5px;
+}
+
+
+
+#stop_button{
+	width: 50px;
+	height: 50px;
+	margin: 0px 5px 0px 5px;
+}
+
+.pn_buttons{
+	width: 45px;
+	height: 60px;
+}
+
+#player_controls img{
+	width: 100%;
+	height: 100%;
+}
+
+#player_controls{
+	padding: 20px 5px;
+}
+
+#durationANDvolume{
+	float: left;
+	/*border: solid 1px red;*/
+	width: 10%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.durationANDvolume{
+	width: 100%;
+	height: 50%;
+	/*border: solid 1px #fff;*/
+	box-sizing: border-box;
+	line-height: 50px;
+}
+
+#track_title{
+	color: #cc1313;
+}
+
+#track_artist{
+	color: #fff;
+} 
+
+#player_playlist{
+	background-color: #fff;
+	min-height: 200px;
+}
+
+#player_playlist table
+{
+	width: 100%;
+}
+
+#player_playlist table th{
+	color: #666666;
+}
+
+.track{
+	color: #000;
+}
+
+.track.active  td{
+    font-weight: bold;
+	padding:3px;
+	background-color: #343434;
+	color: #fff;
+}
+
+.track{
+	cursor: pointer;
+    margin: 5px;
+}
+
+#track_progressBar { 
+	width: 400px;
+	position: relative;
+	line-height: 7px;
+	margin-bottom:20px;
+	margin-top:9px;
+	height:14px;
+	background:url(../images/progress_bg.png) no-repeat;
+	float:left;
+}
+
+#track_progressBar span{ 
+	position: relative;
+	top:0px;
+}
+
+#progressBar {
+   background:url(../images/progress.png) no-repeat;
+   height:13px;
+   display:inline-block;
+}
+
+#player_volume input[type="range"]{
+	width: 50px;
+	margin: 15px 7px 15px 7px;
+}
+
+#track_duration{
+	text-align: center;
+}
+
+
