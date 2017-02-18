@@ -1,0 +1,67 @@
+<html>
+<head>
+    <title>HTML5/jQuery Audio Player</title>
+    <link rel="stylesheet" href="css/style.css" media="screen">
+</head>
+<body>
+	<div id="unmixd_audio_player">
+		<div id="player_header">
+			<div id="player_controls"> 
+				<div id="artist_pic" class="primary_controls"><img src="images/artist-img.jpg" /></div>
+				<div id="prev_button" class="primary_controls pn_buttons"><img src="images/prev_button.png" /></div>
+				<div id="play_button" class="primary_controls"><img src="images/play_button.png" /></div>
+				<div id="pause_button" class="primary_controls"><img src="images/pause.png" /></div>
+				<div id="next_button" class="primary_controls pn_buttons"><img src="images/next_button.png" /></div> 
+			</div>
+			<div id="track_infos"> 
+				<div id="track_title" class="track_info"></div>
+				<div id="track_artist" class="track_info"></div>
+				<div id="track_progressBar" class="track_info"><span id="progressBar"></span></div>
+			</div>
+			<div id="durationANDvolume">
+				<div id="player_volume" class="durationANDvolume"><input id="volume" type="range" min="0" max="10" value="5" /></div>
+				<div id="track_duration" class="durationANDvolume">0.00</div>
+			</div>
+		</div>
+		<div id="player_playlist">
+			<table>
+				<tr>
+					<th></th>
+					<th>ARTIST</th>
+					<th>SONG</th>
+					<th>PRODUCED BY</th>
+					<th>SHARE</th>
+				</tr>
+				<tr class="track" songURL="media/She Drives Me Crazy.mp3" cover="cover1.jpg" artist="Fine Young Cannibals" producer="Fine Young Cannibals" songTitle="She Drives Me Crazy">
+					<td>1-</td>
+					<td>Fine Young Cannibals</td>
+					<td>She Drives Me Crazy</td>
+					<td>Fine Young Cannibals</td>
+					<td></td>
+				</tr>
+				<tr class="track" songURL="media/I Really Like You.mp3" cover="cover1.jpg" artist="Carly Rae Jepsen" producer="Carly Rae Jepsen" songTitle="I Really Like You">
+					<td>2-</td>
+					<td>Carly Rae Jepsen</td>
+					<td>I Really Like You</td>
+					<td>Carly Rae Jepsen</td>
+					<td></td>
+				</tr>
+				<tr class="track" songURL="media/Outside (feat. Ellie Goulding).mp3" cover="cover1.jpg" artist="Calvin Harris" producer="Calvin Harris" songTitle="Outside (feat. Ellie Goulding)">
+					<td>3-</td>
+					<td>Calvin Harris</td>
+					<td>Outside (feat. Ellie Goulding)</td>
+					<td>Calvin Harris</td>
+					<td></td>
+				</tr>
+			
+			</table>
+		</div>
+	</div>
+</div>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>
